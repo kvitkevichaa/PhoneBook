@@ -1,0 +1,9 @@
+<div class="">
+  <table>
+    <tr *ngFor="let item of items; let id = index" [index]='id'>
+      <td>{{item.index}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.phone}}</td>
+    </tr>
+  </table>
+</div>
